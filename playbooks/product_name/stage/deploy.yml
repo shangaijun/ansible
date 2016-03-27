@@ -1,0 +1,7 @@
+---
+- hosts: testansible-stage
+  roles:
+  - apache
+- hosts: testansible-prod
+  roles:
+  - mysql

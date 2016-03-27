@@ -1,0 +1,11 @@
+---
+- hosts: product_name-stage
+  roles:
+  pre_tasks:
+    - name: include secret variables
+      include_vars: "{{secret_repo}}/{{ servername }}/main.yml"
+      no_log: True
+  roles:
+  - { role: mysql-manually,port: 3306,server_id: 1 }
+  - { role: mysql-manually,port: 3307,server_id: 2 }
+  - { role: mysql-manually,port: 3308,server_id: 3 }

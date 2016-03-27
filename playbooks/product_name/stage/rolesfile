@@ -1,0 +1,3 @@
+git+https://github.com/shangaijun/apache.git,v0.2
+git+https://github.com/shangaijun/iptables.git,v0.1
+git+https://github.com/shangaijun/mysql.git

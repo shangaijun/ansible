@@ -1,0 +1,8 @@
+---
+- hosts: product_name-prod
+  tasks:
+    - name: same
+      command: echo "{{ same_var }}"
+
+    - name: different
+      command: echo "{{ different }}"

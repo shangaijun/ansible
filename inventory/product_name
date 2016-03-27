@@ -1,0 +1,9 @@
+[product_name:children]
+product_name-stage
+product_name-prod
+
+[product_name-stage]
+192.168.1.10
+10.66.141.18
+[product_name-prod]
+192.168.1.11
